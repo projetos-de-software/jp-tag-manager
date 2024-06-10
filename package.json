@@ -1,6 +1,6 @@
 {
   "name": "jp-tag-manager",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tag Manager Joomla 5 plugin",
   "main": "index.js",
   "repository": "git@github.com:projetos-de-software/jp-tag-manager.git",
