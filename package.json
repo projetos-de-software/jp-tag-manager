@@ -1,0 +1,25 @@
+{
+  "name": "jp-tag-manager",
+  "version": "1.0.0",
+  "description": "Tag Manager Joomla 5 plugin",
+  "main": "index.js",
+  "repository": "git@github.com:projetos-de-software/jp-tag-manager.git",
+  "author": "Marcos de Lima Carlos",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.0.11"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
