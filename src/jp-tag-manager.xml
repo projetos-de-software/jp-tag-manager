@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" method="upgrade" group="system">
+    <name>JP Tag Manager</name>
+    <author>Marcos de Lima Carlos</author>
+    <creationDate></creationDate>
+    <copyright></copyright>
+    <licence></licence>
+    <authorEmail>mlimacarlos@gmail.com</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <scriptfile>script.php</scriptfile>
+
+    <files>
+        <filename plugin="JPTagManager">jp-tag-manager.php</filename>
+        <filename>index.html</filename>
+    </files>
+
+    <languages folder="language">
+        <language tag="en-GB">language/en-GB/en-GB.plg_jp_tag_manager.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_jp_tag_manager.sys.ini</language>
+        <language tag="pt-BR">language/pt-BR/pt-BR.plg_jp_tag_manager.ini</language>
+        <language tag="pt-BR">language/pt-BR/pt-BR.plg_jp_tag_manager.sys.ini</language>
+    </languages>
+
+    <config>
+
+    </config>
+
+    <updateservers>
+        <server type="extension" priority="1" name=""></server>
+    </updateservers>
+</extension>
